@@ -2,8 +2,7 @@
 
 This is my very first Reinforcement Learning Project. <br>
 To create a model using Q Learning, one of the well known techniques under Reinforcement Learning, that would play the popular "Snake Game" and ultimately, complete the game.
-`git clone https://github.com/mittal-parth/Cash-Flow-Minmiser` <br/>
-`cd Cash-Flow-Minmiser`
+
 <br> <h2> How to play the Game: </h2> 
 1. The Snake needs to be directed towards the food (depicted by a red dot) which spawns randomly on the game board. <br>
 2. Everytime you eat the food, another one is spawned in a random location and the size of the snake increases. The score is also incremented by 1. <br>
@@ -32,14 +31,15 @@ We specifically used a method known as Q learning, which approximates the maximu
 <h3>How to set up the project on your local system </h3>
 <ol>
  <li> Download Anaconda to set up virtual environment to install all required dependencies </li>
- <li> Once conda is set up (type ```conda --version``` to confirm), set up your virtual environment </li>
- ```conda create -n pygame_env python=3.9``` <br>
- ```conda activate pygame_env``` 
+ <li> Once conda is set up (type `conda --version` to confirm), set up your virtual environment </li>
+ `conda create -n pygame_env python=3.9` <br>
+ `conda activate pygame_env` 
   <li> Install require packages </li>
- ```pip install pygame ``` <br>
+ `pip install pygame` <br>
+ `pip install matplotlib ipython`
  Install pytorch based on your system requirements using 
  https://pytorch.org/get-started/locally/ to start locally  <br> 
- ```pip install matplotlib ipython``` <br>
+ <br>
  Now you have everything you need to implement the project!
  
  <li>Download all files from github repository into your local system </li>
