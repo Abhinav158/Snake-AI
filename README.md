@@ -2,6 +2,8 @@
 
 This is my very first Reinforcement Learning Project. <br>
 To create a model using Q Learning, one of the well known techniques under Reinforcement Learning, that would play the popular "Snake Game" and ultimately, complete the game.
+`git clone https://github.com/mittal-parth/Cash-Flow-Minmiser` <br/>
+`cd Cash-Flow-Minmiser`
 <br> <h2> How to play the Game: </h2> 
 1. The Snake needs to be directed towards the food (depicted by a red dot) which spawns randomly on the game board. <br>
 2. Everytime you eat the food, another one is spawned in a random location and the size of the snake increases. The score is also incremented by 1. <br>
