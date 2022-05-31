@@ -30,7 +30,7 @@ We specifically used a method known as Q learning, which approximates the maximu
 
 <h3>How to set up the project on your local system </h3>
 
- 1.  Download Anaconda to set up virtual environment to install all required dependencies </li>
+ 1.  Download Anaconda to set up virtual environment to install all required dependencies - https://www.anaconda.com/ </li>
  2.  Once conda is set up, confirm the installation using
  
 ```
