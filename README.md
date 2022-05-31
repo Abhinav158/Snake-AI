@@ -30,14 +30,14 @@ We specifically used a method known as Q learning, which approximates the maximu
 <h3>How to set up the project on your local system </h3>
 <ol>
  <li> Download Anaconda to set up virtual environment to install all required dependencies </li>
- <li> Once conda is set up (type conda --version to confirm), set up your virtual environment </li>
- conda create -n pygame_env python=3.9
- conda activate pygame_env 
+ <li> Once conda is set up (type ```conda --version``` to confirm), set up your virtual environment </li>
+ ```conda create -n pygame_env python=3.9``` <br>
+ ```conda activate pygame_env``` 
   <li> Install require packages </li>
- pip install pygame 
+ ```pip install pygame ``` <br>
  Install pytorch based on your system requirements using 
- https://pytorch.org/get-started/locally/ to start locally 
- pip install matplotlib ipython
+ https://pytorch.org/get-started/locally/ to start locally  <br> 
+ ```pip install matplotlib ipython``` <br>
  Now you have everything you need to implement the project!
  
  <li>Download all files from github repository into your local system </li>
