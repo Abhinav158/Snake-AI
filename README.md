@@ -29,9 +29,7 @@ Reinforcement learning develops control patterns by providing feedback on a mode
 We specifically used a method known as Q learning, which approximates the maximum expected return for performing an action at a given state using an action-value (Q) function. Specifically, return gives the sum of the rewards until the game terminates, where the reward is discounted by a factor of γ at each time step.
 
 ```
-var add2 = function(number) {
-  return number + 2;
-}
+conda --version
 ```
 <h3>How to set up the project on your local system </h3>
 <ol>
