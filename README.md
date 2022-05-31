@@ -29,18 +29,29 @@ Reinforcement learning develops control patterns by providing feedback on a mode
 We specifically used a method known as Q learning, which approximates the maximum expected return for performing an action at a given state using an action-value (Q) function. Specifically, return gives the sum of the rewards until the game terminates, where the reward is discounted by a factor of γ at each time step.
 
 <h3>How to set up the project on your local system </h3>
-<ol>
- <li> Download Anaconda to set up virtual environment to install all required dependencies </li>
- <li> Once conda is set up (type
+
+ 1.  Download Anaconda to set up virtual environment to install all required dependencies </li>
+ 2.  Once conda is set up, confirm the installation using
+ 
 ```
 conda --version
-```to confirm), set up your virtual environment </li>
- `conda create -n pygame_env python=3.9` <br>
- `conda activate pygame_env` 
-  <li> Install require packages </li>
- `pip install pygame` <br>
- `pip install matplotlib ipython` <br>
- Install pytorch based on your system requirements using 
+```
+<br> Now set up your virtual environment using conda 
+```
+conda create -n pygame_env python=3.9
+```
+```
+conda activate pygame_env
+```
+ 
+3. Install the required packages 
+```
+pip install pygame
+```
+```
+pip install matplotlib ipython
+```
+4. Install pytorch based on your system requirements using 
  https://pytorch.org/get-started/locally/ to start locally  <br>
  Now you have everything you need to implement the project!
  
