@@ -28,7 +28,7 @@ BLACK = (0,0,0)
 
 # Game block size and speed of the agent 
 BLOCK_SIZE = 20
-SPEED = 20
+SPEED = 50
 
 class SnakeGameAI:
     
