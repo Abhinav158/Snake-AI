@@ -1,7 +1,7 @@
 # Snake-AI
 
 This is my very first Reinforcement Learning Project. <br>
-To create a model using Q Learning, one of the well known techniques under Reinforcement Learning, that would play the popular "Snake Game" and ultimately, complete the game.
+To create a model using Q Learning, one of the well known techniques under Reinforcement Learning, that learn how to play the popular "Snake Game" and ultimately, complete the game by occupying all availble grids on the gameboard.
 
 <br> <h2> How to play the Game: </h2> 
 1. The Snake needs to be directed towards the food (depicted by a red dot) which spawns randomly on the game board. <br>
