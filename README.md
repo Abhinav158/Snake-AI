@@ -53,12 +53,15 @@ pip install matplotlib ipython
 ```
 4. Install pytorch based on your system requirements using 
  https://pytorch.org/get-started/locally/ to start locally  <br>
- Now you have everything you need to implement the project!
  
- <li>Download all files from github repository into your local system </li>
  
- <li> In your terminal, inside the virtual environment, type python agent.py</li>
- You are all set! Watch the AI learn how to play the Snake Game! 
+5. Download all files from github repository into your local system <br> 
+ 
+ 6.  In your terminal, inside the virtual environment, enter the following command to run the project  
+ ```
+python agent.py
+``` 
+<br> You are all set! Watch the AI learn how to play the Snake Game! 
   
 <h3>Applications of Reinforcement Learning</h3> 
 <ol> 
