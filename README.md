@@ -33,6 +33,9 @@ We specifically used a method known as Q learning, which approximates the maximu
 <ol>
  <li> Download Anaconda to set up virtual environment to install all required dependencies </li>
  <li> Once conda is set up (type `conda --version` to confirm), set up your virtual environment </li>
+ ```
+conda create -n pygame_env python=3.9
+```
  `conda create -n pygame_env python=3.9` <br>
  `conda activate pygame_env` 
   <li> Install require packages </li>
