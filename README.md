@@ -28,14 +28,15 @@ To create a model using Q Learning, one of the well known techniques under Reinf
 Reinforcement learning develops control patterns by providing feedback on a model’s selected actions, which encourages the model to select better actions in the future. At each time step, given some state s, the model will select an action a, and then observe the new state s' and a reward r based on some optimality criterion.
 We specifically used a method known as Q learning, which approximates the maximum expected return for performing an action at a given state using an action-value (Q) function. Specifically, return gives the sum of the rewards until the game terminates, where the reward is discounted by a factor of γ at each time step.
 
-
+```
+var add2 = function(number) {
+  return number + 2;
+}
+```
 <h3>How to set up the project on your local system </h3>
 <ol>
  <li> Download Anaconda to set up virtual environment to install all required dependencies </li>
  <li> Once conda is set up (type `conda --version` to confirm), set up your virtual environment </li>
- ```
-conda create -n pygame_env python=3.9
-```
  `conda create -n pygame_env python=3.9` <br>
  `conda activate pygame_env` 
   <li> Install require packages </li>
