@@ -16,17 +16,44 @@ To create a model using Q Learning, one of the well known techniques under Reinf
 
 <h2> Features </h2>
 <ul>
- <li> This project implements the use of Python 3.9</li>
- <li> PyTorch is used to implement our neural network </li> 
- <li> We have also plotted the score obtained against the number of games played using matplotlib pyplot library </li>
+ <li> This project makes use of Python 3.9</li>
+ <li> We use PyTorch to implement our neural network </li> 
+ <li> We have also plotted the score obtained in each game against the number of games played using matplotlib library </li>
  </ul>
  
- <h2> Visual Aid </h2>
- ![image](https://user-images.githubusercontent.com/93826081/171136062-87d4e5b5-a7aa-4c02-8487-83117310fbbe.png)
  
- <h2> Stats of the initial training plot </h2> 
- ![image](https://user-images.githubusercontent.com/93826081/171136241-88cdf68a-84a0-4a64-9fa2-a091766f6e86.png)
+<h3> Brief Theory: </h3> 
+Reinforcement learning develops control patterns by providing feedback on a model’s selected actions, which encourages the model to select better actions in the future. At each time step, given some state s, the model will select an action a, and then observe the new state s' and a reward r based on some optimality criterion.
+We specifically used a method known as Q learning, which approximates the maximum expected return for performing an action at a given state using an action-value (Q) function. Specifically, return gives the sum of the rewards until the game terminates, where the reward is discounted by a factor of γ at each time step.
 
 
+<h3>How to set up the project on your local system </h3>
+<ol>
+ <li> Download Anaconda to set up virtual environment to install all required dependencies </li>
+ <li> Once conda is set up (type conda --version to confirm), set up your virtual environment </li>
+ conda create -n pygame_env python=3.9
+ conda activate pygame_env 
+  <li> Install require packages </li>
+ pip install pygame 
+ Install pytorch based on your system requirements using 
+ https://pytorch.org/get-started/locally/ to start locally 
+ pip install matplotlib ipython
+ Now you have everything you need to implement the project!
+ 
+ <li>Download all files from github repository into your local system </li>
+ 
+ <li> In your terminal, inside the virtual environment, type python agent.py</li>
+ You are all set! Watch the AI learn how to play the Snake Game! 
+  
+<h3>Applications of Reinforcement Learning</h3> 
+<ol> 
+ <li>Robotics for Industrial Automation </li>
+ <li>Text summarization engines</li> 
+ <li> Autonomous Self Driving Cars </li>
+ <li> AI Toolkits, Manufacturing, Automotive, Healthcare </li>
+ <li>Aircraft Control and Robot Motion Control </li>
+ <li> AI for Computer Games </li>
+</ol>
 
-<br>The same method of learning used in the above project can be used for various other applications like autonomous car driving or an engine for a game like chess. 
+
+ 
