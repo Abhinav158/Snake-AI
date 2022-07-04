@@ -17,8 +17,8 @@ To create a model using Q Learning, one of the well known techniques under Reinf
 
 <h2> Features </h2>
 <ul>
- <li> This project makes use of Python 3.9</li>
- <li> We use PyGame to implement our gane design </li>
+ <li> This project uses Python 3.9</li>
+ <li> We use PyGame to implement our game design </li>
  <li> We use PyTorch to implement our neural network </li> 
  <li> We have also plotted the score obtained in each game against the number of games played using matplotlib library </li>
  </ul>
